@@ -8,3 +8,140 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .header {
+    display: flex;
+  }
+
+  .great-teamwork {
+    
+  }
+}
+
+html, body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background: #540B51;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.icon-search {
+  margin-right: 20px;
+}
+
+.icon-search, .icon-menu {
+  border: none;
+  background: none;
+}
+
+.header {
+  background: #540B51;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  font-size: 46px;
+}
+
+.header p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.header p strong {
+  color: #ECB12F;
+}
+
+.sign-up-buttons {
+  padding: 20px;
+}
+
+.sign-up-buttons button {
+  display: block;
+  width: 100%;
+  color: #540B51;
+  background: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  height: 70px;
+}
+
+.sign-up-email {
+  margin-bottom: 10px;
+}
+
+.sign-up-buttons button.sign-up-google {
+  background: #4285F4;
+  position: relative;
+  color: white;
+}
+
+.sign-up-google img {
+  width: 50px;
+  background: white;
+  border-radius: 4px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+
+.screenshot-container {
+  overflow: hidden;
+  height: 322px;
+}
+
+.screenshot-container img {
+  width: 655px;
+}
+
+section {
+  padding: 30px;
+}
+
+.trusted-by-companies {
+  background: #F3EAE2;
+}
+
+.trusted-by-companies p {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.companies-container {
+  text-align: center;
+}
+
+.companies-container img {
+  height: 40px;
+  margin: 5px;
+}
